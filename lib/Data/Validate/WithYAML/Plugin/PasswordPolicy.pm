@@ -7,7 +7,7 @@ use Carp;
 
 # ABSTRACT: Plugin to check passwords against a policy 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub check {
     my ($class, $value, $options) = @_;
